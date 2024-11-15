@@ -1,0 +1,11 @@
+.className {
+  background-color: blue;
+}
+.globalFont{
+    font-size:60px;
+}
+.title {
+  composes: className;
+  composes: globalFont;
+  color: red;
+}

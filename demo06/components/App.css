@@ -1,0 +1,7 @@
+@value colors: "./colors.css";
+@value primaryBgColor, primaryFontColor, green from colors;
+
+.title {
+  color: primaryFontColor;
+  background-color: primaryBgColor;
+}
